@@ -42,12 +42,12 @@ r() {
   cursor=1
 }
 
-# Move cursor forward 
+# Move cursor forward (Advance)
 a() {
   cursor=$((cursor+2))
 }
 
-# Mock cursor backwards
+# Move cursor backwards
 b() {
   cursor=$((cursor-2))
 }
