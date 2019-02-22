@@ -1,0 +1,8 @@
+# set up a variable
+demo_suffix='demo-22feb'
+# echo it
+echo $demo_suffix
+# read some output
+working_dir=`pwd`
+# display it
+echo $working_dir
