@@ -3,7 +3,7 @@ Shell utility to do live demos
 
 # Usage
 ```
-$ demoshell.sh <path-to-commands-file> <path-to-post-commands-file>
+$ source demoshell.sh <path-to-commands-file> <path-to-post-commands-file>
 ```
 
 It will set few shell functions to do interactive demo. `<path-to-commands-file>` provide
