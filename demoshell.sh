@@ -9,7 +9,7 @@ post_commands=$2
 cursor=1
 
 if [[ -z $commands ]]; then
-  echo "Usage: demoshell.sh <commands-file> [<post-commands-file>]"
+  echo "Usage: source demoshell.sh <commands-file> [<post-commands-file>]"
   return 1
 fi
 
